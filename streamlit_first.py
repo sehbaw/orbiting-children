@@ -13,18 +13,18 @@ st.set_page_config(page_icon="chat2vis.png",layout="wide",page_title="Orbiting C
 st.markdown("<h1 style='text-align: center; font-weight:bold; font-family:open sans ms; padding-top: 0rem;'> \
             Orbiting Children: Who Are They?</h1>", unsafe_allow_html=True)
 st.sidebar.title("Utilizing Data from AECF/n")
-st.sidebar.markdown
+st.sidebar.markdown("Take a look at this to learn more about how current data reports are being written and communicated:https://www.aecf.org/interactive/databook")
 #st.sidebar.caption("Utilizing Data from" <a href="datacenter.aecf.org">AECF DataCenter</a>)
-
-
+st.sidebar.caption("")
+st.markdown("Orbiting Children")
 
 st.subheader("<style font-family:> Understanding Identity</style>")
 df = px.data.iris()
 fig = px.scatter()
     df,
-    x="sepal_width",
-    y="sepal_length",
-    color="sepal_length",
+    x="",
+    y="",
+    color="",
     color_continuous_scale="reds",
 )
 
